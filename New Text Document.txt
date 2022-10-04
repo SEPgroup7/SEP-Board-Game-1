@@ -28,3 +28,6 @@ games
 -scramble
 -domino
 -mahjong
+
+
+I have finished
