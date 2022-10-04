@@ -1,0 +1,39 @@
+WE CANT USE:
+
+-JavaScript;
+-FlexBox or CSS grid;
+-No Frameworks;
+-No in-line allowed;
+
+
+Our index page has to have a mavigation bar:
+
+
+-Board games;
+-Our events;
+-Request of board games; ( Games, allUsers of the games, game owner, lent to, date of loan , date of loan end;
+-about us ( Names, photo, "facebookpage", emails, maps)
+
+
+
+
+
+
+FIGMA:
+
+-Chose the styling of our index.html						//Syste.out.println("lsadllsadldsa")
+-choose the picture of our index (30mn)
+-navigation bar ideas ..
+-little text about the our page.
+-pictures for our games, text about our games..
+- about us , pictures of our group same background, ICON for EMAILBOX, our names.
+- Events, Name , date , text that will redirect to facebook event.										
+
+games
+
+- chess
+-checkers
+-monoply
+-scramble
+-domino
+-mahjong
