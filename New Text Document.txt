@@ -7,8 +7,6 @@ WE CANT USE:
 
 
 Our index page has to have a mavigation bar:
-
-
 -Board games;
 -Our events;
 -Request of board games; ( Games, allUsers of the games, game owner, lent to, date of loan , date of loan end;
