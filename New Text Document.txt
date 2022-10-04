@@ -1,5 +1,4 @@
 WE CANT USE:
-
 -JavaScript;
 -FlexBox or CSS grid;
 -No Frameworks;
@@ -7,8 +6,6 @@ WE CANT USE:
 
 
 Our index page has to have a mavigation bar:
-
-
 -Board games;
 -Our events;
 -Request of board games; ( Games, allUsers of the games, game owner, lent to, date of loan , date of loan end;
@@ -16,8 +13,7 @@ Our index page has to have a mavigation bar:
 
 
 FIGMA:
-
--Chose the styling of our index.html						//Syste.out.println("lsadllsadldsa")
+-Chose the styling of our index.html						//System.out.println("lsadllsadldsa")
 -choose the picture of our index (30mn)
 -navigation bar ideas ..
 -little text about the our page.
@@ -26,7 +22,6 @@ FIGMA:
 - Events, Name , date , text that will redirect to facebook event.										
 
 games
-
 - chess
 -checkers
 -monoply
