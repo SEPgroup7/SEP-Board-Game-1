@@ -15,10 +15,6 @@ Our index page has to have a mavigation bar:
 -about us ( Names, photo, "facebookpage", emails, maps)
 
 
-
-
-
-
 FIGMA:
 
 -Chose the styling of our index.html						//Syste.out.println("lsadllsadldsa")
