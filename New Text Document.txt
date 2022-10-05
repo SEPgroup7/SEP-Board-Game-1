@@ -30,4 +30,3 @@ games
 -mahjong
 
 
-I have finished
