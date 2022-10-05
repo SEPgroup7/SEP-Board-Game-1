@@ -28,5 +28,3 @@ games
 -scramble
 -domino
 -mahjong
-
-testing for filip
