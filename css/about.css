@@ -1,10 +1,8 @@
 h1 {
+    margin: auto;
     color: black;
-    position: center;
-
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
-
 }
 
 body {
@@ -32,8 +30,8 @@ body {
     float: left;
     left: 190px;
     top: 160px;
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
 }
 
 .navbar a:hover {
