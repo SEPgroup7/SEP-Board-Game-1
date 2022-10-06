@@ -14,10 +14,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    position: relative;
-    left: 165px;
-    bottom: 150px;
-
+    position: static top 0 0;
 }
 
 .navbar a {
@@ -30,6 +27,14 @@ body {
     font-size: 20px;
     transition: 0.5s;
     font-family: 'Montserrat', sans-serif;
+}
+
+.navbar img {
+    float: left;
+    left: 190px;
+    top: 160px;
+    width: 100px;
+    height: 100px;
 }
 
 .navbar a:hover {
