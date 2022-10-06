@@ -1,40 +1,53 @@
   /*general*/
   * {
+<<<<<<< HEAD
     box-sizing: border-box;
 }
 /*elements*/
+=======
+      box-sizing: border-box;
+  }
+>>>>>>> 0036b8827034a4bffd775a9696d78d10c8ac7084
 
-/*classes*/
+  /*classes*/
 
-.wrapper {
-    height: 100%;
-}
+  .wrapper {
+      height: 100%;
+  }
 
-.chess-wrapper, .checkers-wrapper, .scrabble-wrapper, .mahjong-wrapper, .domino-wrapper {
-    width: 45%;
-}
+  .chess-wrapper,
+  .checkers-wrapper,
+  .scrabble-wrapper,
+  .mahjong-wrapper,
+  .domino-wrapper {
+      width: 45%;
+  }
 
-.chess-wrapper, .checkers-wrapper, .scrabble-wrapper, .mahjong-wrapper, .monopoly-wrapper {
-    height:300px ;
-    background-color: aqua;
-}
+  .chess-wrapper,
+  .checkers-wrapper,
+  .scrabble-wrapper,
+  .mahjong-wrapper,
+  .monopoly-wrapper {
+      height: 300px;
+      background-color: aqua;
+  }
 
-.domino-wrapper {
-    height: 600px;
-}
+  .domino-wrapper {
+      height: 600px;
+  }
 
-.monopoly-wrapper {
-    width: 90%;
-}
+  .monopoly-wrapper {
+      width: 90%;
+  }
 
-/*chess*/
+  /*chess*/
 
-/*checkers*/
+  /*checkers*/
 
-/*monopoly*/
+  /*monopoly*/
 
-/*srabble*/
+  /*srabble*/
 
-/*mahjong*/
+  /*mahjong*/
 
-/*domino*/
+  /*domino*/
