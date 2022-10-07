@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {  
+    scroll-behaviour: smooth;
+}
+
 .background {
     background: grey;
     background-blend-mode: darken;
