@@ -1,3 +1,4 @@
+/*first section*/
 .games1-wrapper {
   padding-top: 15px;
 }
@@ -5,13 +6,12 @@
 /*all wrappers*/
   .chess-wrapper, .checkers-wrapper, .monopoly-wrapper, .scrabble-wrapper, .mahjong-wrapper, .domino-wrapper   {
     float: left;
-
     position: relative;
+    
     background-repeat: no-repeat;
     background-size: cover;
 
     height: 300px;
-    position: relative;
 
     border-radius: 20px;
 }
@@ -21,14 +21,17 @@
     padding: 25px;
 }
 
-/*all h2s*/
+/*h2s*/
 .chess-container h2, .checkers-container h2, .monopoly-container h2, .scrabble-container h2, .mahjong-container h2, .domino-container h2 {
+    /*text*/
     color: white;
-    text-align: center;
-    padding: 7.5%;
     text-transform: uppercase;
-    padding-bottom: 12px;
     font-weight: 800;
+    text-align: center;
+
+    padding: 7.5%;
+    padding-bottom: 12px;
+    
 }
 
   /*small boxes*/
@@ -117,6 +120,11 @@
   transition: all 0.3s  ease-in-out;
 }
 
+.image-overlay:hover {
+  opacity: 1;
+}
+
+/*image overlay styling*/
 .image-overlay h2, p {
   color: white;
   text-align: center;
@@ -128,6 +136,3 @@
   font-weight: 800;
 }
 
-.image-overlay:hover {
-  opacity: 1;
-}
