@@ -1,31 +1,37 @@
-.navbar {
-    overflow: hidden;
-    position: static top 0 0;
+.div.navbar-wrapper {
+    padding: 15px;
 }
 
-.navbar a {
-    /* navbar text styling*/
+.navbar-container a {
     float: left;
+    padding: 5px 15px;
+    
+    text-decoration: none;
+}
+
+.navbar-container a {
+    float: left;
+
+    padding: 5px 15px;
+    
+    text-decoration: none;
     color: black;
-    text-align: center;
-    padding: 30px;
-    text-decoration: none;
-    font-size: 20px;
-    transition: 0.5s;
-    font-family: 'Montserrat', sans-serif;
 }
 
-.navbar img {
-    float: left;
-    left: 190px;
-    top: 160px;
-    width: 30px;
-    height: 30px;
+.navbar-container a:hover {
+    color: rgb(125, 124, 124);
+    transition: all 0.3s ease-in-out;
 }
 
-.navbar a:hover {
-    transform: scale(1.7);
-    opacity: 4;
-    filter: blur(0);
-    text-decoration: none;
+.navbar-container a:nth-child(2) {
+padding-top: 21px;
 }
+
+.navbar-container a:nth-child(3) {
+    padding-top: 21px;
+}
+
+.navbar-container a:nth-child(4) {
+    padding-top: 21px;
+}
+
