@@ -1,18 +1,22 @@
+  /*general*/
+  
   /*all classes*/
   .chess-wrapper, .checkers-wrapper, .monopoly-wrapper, .scrabble-wrapper, .mahjong-wrapper, .domino-wrapper   {
     float: left;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
+/*css applied to all boxes*/
 .chess-container, .checkers-container, .monopoly-container, .scrabble-container, .mahjong-container, .domino-container   {
     padding: 25px;
+    
 }
 
 .chess-container h2, .checkers-container h2, .monopoly-container h2, .scrabble-container h2, .mahjong-container h2, .domino-container h2   {
     margin: 0 auto;
     color: white;
-    backdrop-filter: blur(20px) saturate(50%);
 }
 
   /*for width and height*/
@@ -46,11 +50,49 @@
 
 .chess-wrapper {
     background-image: url(/images/Games/chess.jpg);
+    position: relative;
+}
+
+.image-overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /*background effect*/
+  background: rgba( 11, 10, 10, 0.25 );
+  opacity: 0;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur( 4px );
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  transition: all 0.3s  ease-in-out;
+}
+
+.image-overlay h2, p {
+  color: white;
+  text-align: center;
+}
+
+.image-overlay h2 {
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  font-weight: 800;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+
 }
   /*checkers*/
 
   .checkers-wrapper {
     background-image: url(/images/Games/checkers.jpg);
+    position: relative;
 }
 
   /*monopoly*/
