@@ -76,14 +76,15 @@ h1, h2, h3, h4, h5, h6, a {
     border-radius: 25px;
     
     
-    
+    transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
-    transform: scale(0.7);
+    transform: scale(1.7);
     border-color:rgb(125, 124, 124);
     background-color: black;
     color: white;
+    
     backdrop-filter: blur(20px) saturate(50%)
 }
 
