@@ -1,0 +1,31 @@
+.navbar {
+    overflow: hidden;
+    position: static top 0 0;
+}
+
+.navbar a {
+    /* navbar text styling*/
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar img {
+    float: left;
+    left: 190px;
+    top: 160px;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar a:hover {
+    transform: scale(1.7);
+    opacity: 4;
+    filter: blur(0);
+    text-decoration: none;
+}
