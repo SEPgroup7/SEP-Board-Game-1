@@ -1,6 +1,8 @@
 /* Montserrat font */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+/*Ricardo Fernandes*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -70,7 +72,7 @@ h1, h2, h3, h4, h5, h6, a {
     color: black;
     font-family: 'Montserrat';
 }
-
+/* Button Css*/
 .btn {
     border: 1px solid black;
     padding: 5px 25px;
@@ -83,11 +85,8 @@ h1, h2, h3, h4, h5, h6, a {
     transform: scale(1.7);
     border-color:rgb(125, 124, 124);
     background-color: black;
-    color: white;
-    
-    
+    color: white;  
 }
-
 
 /*INDEX HTML*/
 
@@ -96,14 +95,14 @@ h1, h2, h3, h4, h5, h6, a {
     height: 100vh;
     float: left;
 }
-
+/*Background image*/
 .homepage-wrapper {
     background-image: url(/images/Background2.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
 }
-
+/*background color with opacity left side of Index*/
 .homepage-everlay {
     background-color: #d9d9d9;
     opacity: 0.95;
@@ -113,12 +112,10 @@ h1, h2, h3, h4, h5, h6, a {
     padding-left: 80px;
     padding-top: 17%;
     height: 75vh;
-    overflow: hidden;
-    
+    overflow: hidden; 
     
 }
 .content-wrapper h2{
-
     padding: 15px 0;
     padding-bottom: 35px;
     

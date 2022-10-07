@@ -14,20 +14,10 @@
     padding: 5px 15px;
 }
 
-.navbar-container a:hover {
-    color: rgb(125, 124, 124);
-    transition: all 0.3s ease-in-out;
-}
-
-.navbar-container a:nth-child(2) {
+.navbar-container a {
     padding-top: 21px;
 }
-
-.navbar-container a:nth-child(3) {
-    padding-top: 21px;
-}
-
-.navbar-container a:nth-child(4) {
-    padding-top: 21px;
+.navbar-container a:first-child {
+    padding-top: 0;
 }
 
