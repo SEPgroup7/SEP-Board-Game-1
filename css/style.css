@@ -1,88 +1,127 @@
-h1{
-    color: black;
-    position: relative; left: 190px; top: 200px;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-body{
-    background-color: grey;
-}
-.navbar {
-    overflow: hidden;
-    position:relative; left: 165px; bottom: 80px;
-    
-}
-.navbar a{                                  /* navbar text styling*/
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 30px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transition:0.5s; 
-   
-    
-}
-.navbar a:hover {
-    transform:scale(1.7);
-    opacity:4;
-    filter:blur(0);
-    text-decoration:none;
-
-}
-h3{
-    position: relative; left: 190px; top: 100px;
-}
-
-.button {
-    position: relative; left: 190px; top: 120px;
-    border: none;
-     background-color: wheat;
-    border-radius: 8px;
-    color: black;
-    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
-    transition: 0.5s;
-}
-.button:hover{
-    background-color: wheat;
-    transform:scale(1.5);
-    
-}
-
-html,body{
+* {
+    box-sizing: border-box;
     margin: 0;
-    height: 100%;
-
+    padding: 0;
+    overflow-x: hidden;
 }
 
-body{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-image: url('/images/Background2.png');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+a:hover {
+    color: rgb(125, 124, 124);
+    transition: all 0.3s ease-in-out;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open sans';
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h4, h5, h6 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    color: black;
+    font-family: 'Montserrat';
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 5px 25px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.btn:hover {
+    transform: scale(1.7);
+    border-color:rgb(125, 124, 124);
+    background-color: black;
+    color: white;
+    
+    
+}
+
+
+/*INDEX HTML*/
+
+.homepage-everlay, .background-image {
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+.homepage-wrapper {
+    background-image: url(/images/Background2.png);
     background-repeat: no-repeat;
-    background-position: center right ;
-    background-size: contain;
-    background-position-y: 0px;
-
-
+    background-size:cover;
+    background-position: center;
 }
-img {
+
+.homepage-everlay {
+    background-color: #d9d9d9;
+    opacity: 0.95;
+}
+
+.content-wrapper{
+    padding-left: 80px;
+    padding-top: 17%;
+    height: 75vh;
+    overflow: hidden;
     
-    width: 80px;
-    height: 80px;
-    float:left;
-    margin: -270px 0 0 45px;
     
+}
+.content-wrapper h2{
+
+    padding: 15px 0;
+    padding-bottom: 35px;
     
-  }
-    
-
-
-
-
-
-
-
-  
- 
+}
+.content-wrapper a.btn {
+    margin-bottom: 50px;
+}
