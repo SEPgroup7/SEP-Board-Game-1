@@ -5,13 +5,12 @@
 .navbar-container a {
     float: left;
     padding: 5px 15px;
-    
+    margin-top: 10px;
     text-decoration: none;
 }
 
 .navbar-container a {
     float: left;
-
     padding: 5px 15px;
 }
 
@@ -21,7 +20,7 @@
 }
 
 .navbar-container a:nth-child(2) {
-padding-top: 21px;
+    padding-top: 21px;
 }
 
 .navbar-container a:nth-child(3) {

@@ -11,6 +11,8 @@
 
 .chess-container h2, .checkers-container h2, .monopoly-container h2, .scrabble-container h2, .mahjong-container h2, .domino-container h2   {
     margin: 0 auto;
+    color: white;
+    backdrop-filter: blur(20px) saturate(50%);
 }
 
   /*for width and height*/
@@ -43,34 +45,34 @@
   /*chess*/
 
 .chess-wrapper {
-    background-image: url(/images/chess.jpg);
+    background-image: url(/images/Games/chess.jpg);
 }
   /*checkers*/
 
   .checkers-wrapper {
-    background-image: url(/images/checkers.jpg);
+    background-image: url(/images/Games/checkers.jpg);
 }
 
   /*monopoly*/
 
   .monopoly-wrapper {
-    background-image: url(/images/monopoly.jpg);
+    background-image: url(/images/Games/monopoly.jpg);
 }
 
   /*srabble*/
 
   .scrabble-wrapper {
-    background-image: url(/images/scrabble.png);
+    background-image: url(/images/Games/scrabble.png);
 }
 
   /*mahjong*/
 
   .mahjong-wrapper {
-    background-image: url(/images/mahjong.jpg);
+    background-image: url(/images/Games/mahjong.jpg);
 }
 
   /*domino*/
 
   .domino-wrapper {
-    background-image: url(/images/domino.jpg);
+    background-image: url(/images/Games/domino.jpg);
 }

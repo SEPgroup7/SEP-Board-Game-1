@@ -30,7 +30,7 @@ a {
     font-family: 'Montserrat';
 }
 
-    a:hover {
+a:hover {
     color: rgb(125, 124, 124);
     transition: all 0.3s ease-in-out;
 }
@@ -73,6 +73,9 @@ h1, h2, h3, h4, h5, h6, a {
 .btn {
     border: 1px solid black;
     padding: 5px 25px;
+    border-radius: 25px;
+    
+    
     
 }
 
@@ -81,4 +84,44 @@ h1, h2, h3, h4, h5, h6, a {
     border-color:rgb(125, 124, 124);
     background-color: black;
     color: white;
+    backdrop-filter: blur(20px) saturate(50%)
+}
+
+
+/*INDEX HTML*/
+
+.homepage-everlay, .background-image {
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+.homepage-wrapper {
+    background-image: url(/images/Background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage-everlay {
+    background-color: #d9d9d9;
+    opacity: 0.95;
+}
+
+.content-wrapper{
+    padding-left: 80px;
+    padding-top: 17%;
+    height: 75vh;
+    overflow: hidden;
+    
+    
+}
+.content-wrapper h2{
+
+    padding: 15px 0;
+    padding-bottom: 35px;
+    
+}
+.content-wrapper a.btn {
+    margin-bottom: 50px;
 }
