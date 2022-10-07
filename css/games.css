@@ -1,22 +1,26 @@
-  /*general*/
-  * {
-      box-sizing: border-box;
-  }
+  /*all classes*/
+  .chess-wrapper, .checkers-wrapper, .monopoly-wrapper, .scrabble-wrapper, .mahjong-wrapper, .domino-wrapper   {
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-  /*elements*/
+.chess-container, .checkers-container, .monopoly-container, .scrabble-container, .mahjong-container, .domino-container   {
+    padding: 25px;
+}
 
-  /*classes*/
+.chess-container h2, .checkers-container h2, .monopoly-container h2, .scrabble-container h2, .mahjong-container h2, .domino-container h2   {
+    margin: 0 auto;
+}
 
-  .wrapper {
-      height: 100%;
-  }
-
+  /*for width and height*/
   .chess-wrapper,
   .checkers-wrapper,
   .scrabble-wrapper,
   .mahjong-wrapper,
   .domino-wrapper {
       width: 45%;
+      margin: 2.5%;
   }
 
   .chess-wrapper,
@@ -25,7 +29,6 @@
   .mahjong-wrapper,
   .monopoly-wrapper {
       height: 300px;
-      background-color: aqua;
   }
 
   .domino-wrapper {
@@ -33,17 +36,41 @@
   }
 
   .monopoly-wrapper {
-      width: 90%;
+      width: 95%;
+      margin: 2.5%;
   }
 
   /*chess*/
 
+.chess-wrapper {
+    background-image: url(/images/chess.jpg);
+}
   /*checkers*/
+
+  .checkers-wrapper {
+    background-image: url(/images/checkers.jpg);
+}
 
   /*monopoly*/
 
+  .monopoly-wrapper {
+    background-image: url(/images/monopoly.jpg);
+}
+
   /*srabble*/
+
+  .scrabble-wrapper {
+    background-image: url(/images/scrabble.png);
+}
 
   /*mahjong*/
 
+  .mahjong-wrapper {
+    background-image: url(/images/mahjong.jpg);
+}
+
   /*domino*/
+
+  .domino-wrapper {
+    background-image: url(/images/domino.jpg);
+}
