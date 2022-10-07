@@ -29,6 +29,11 @@ a {
     font-family: 'Montserrat';
 }
 
+    a:hover {
+    color: rgb(125, 124, 124);
+    transition: all 0.3s ease-in-out;
+}
+
 p {
     font-size: 17px;
     font-weight: 400;
@@ -59,7 +64,7 @@ p, h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, a {
     color: black;
     font-family: 'Montserrat';
 }
