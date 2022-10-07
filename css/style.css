@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 /*Background image*/
 .homepage-wrapper {
-    background-image: url(/images/Background2.png);
+    background-image: url(../images/Background2.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;

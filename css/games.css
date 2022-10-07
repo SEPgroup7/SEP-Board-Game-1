@@ -62,37 +62,37 @@
   /*chess*/
 
 .chess-wrapper {
-    background-image: url(/images/Games/chess.jpg);
+    background-image: url(../images/Games/chess.jpg);
 }
 
   /*checkers*/
 
   .checkers-wrapper {
-    background-image: url(/images/Games/checkers.jpg);  
+    background-image: url(../images/Games/checkers.jpg);  
 }
 
   /*monopoly*/
 
   .monopoly-wrapper {
-    background-image: url(/images/Games/monopoly.jpeg);
+    background-image: url(../images/Games/monopoly.jpeg);
 }
 
   /*srabble*/
 
   .scrabble-wrapper {
-    background-image: url(/images/Games/scrabble.jpeg);
+    background-image: url(../images/Games/scrabble.jpeg);
 }
 
   /*mahjong*/
 
   .mahjong-wrapper {
-    background-image: url(/images/Games/mahjong.jpg);
+    background-image: url(../images/Games/mahjong.jpg);
 }
 
   /*domino*/
 
   .domino-wrapper {
-    background-image: url(/images/Games/domino.jpg);
+    background-image: url(../images/Games/domino.jpg);
 }
 
 /*image overlay*/
@@ -115,16 +115,19 @@
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border: 1px solid rgba(0, 0, 0, 0.18);
   transition: all 0.3s  ease-in-out;
+  overflow: hidden;
 }
 
 .image-overlay:hover {
   opacity: 1;
+  overflow: hidden;
 }
 
 /*image overlay styling*/
 .image-overlay h2, p {
   color: white;
   text-align: center;
+  overflow: hidden;
 }
 
 .image-overlay h2 {
