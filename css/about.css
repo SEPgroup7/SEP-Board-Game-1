@@ -2,7 +2,6 @@
 
 #service {
     margin: 34px;
-    display: flex;
 }
 
 h1{
@@ -16,7 +15,6 @@ h1{
 }
 
 .box{
-    width: 23%;
     justify-content: center;
     align-items: center;
 }
