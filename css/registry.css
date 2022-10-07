@@ -1,0 +1,13 @@
+/* Coded by Mark */
+
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 75%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr:first-child {
+    border : 1px solid #000;
+  }
