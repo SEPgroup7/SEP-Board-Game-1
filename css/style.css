@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -67,4 +66,17 @@ p, h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6, a {
     color: black;
     font-family: 'Montserrat';
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 5px 25px;
+    
+}
+
+.btn:hover {
+    transform: scale(0.7);
+    border-color:rgb(125, 124, 124);
+    background-color: black;
+    color: white;
 }
