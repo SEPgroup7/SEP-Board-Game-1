@@ -1,71 +1,37 @@
-h1 {
-    color: black;
-    position: relative;
-    left: 190px;
-    top: 200px;
-}
-
-body {
-    background-color: rgb(212, 211, 211);
-}
-
-.navbar {
-    overflow: hidden;
-    position: relative;
-    left: 165px;
-    bottom: 80px;
-
-}
-
-.navbar a {
-    /* navbar text styling*/
+.eventchess-wrapper,
+.eventcheckers-wrapper {
     float: left;
-    color: black;
-    text-align: center;
-    padding: 30px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transition: 0.5s;
-
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.navbar a:hover {
-    transform: scale(1.7);
-    opacity: 4;
-    filter: blur(0);
-    text-decoration: none;
-
+.eventchess-container,
+.eventcheckers-container {
+    padding: 25px;
 }
 
-h3 {
-    position: relative;
-    left: 190px;
-    top: 100px;
+.eventchess-container h2,
+.eventcheckers-container h2 {
+    margin: 0 auto;
+    color: white;
+    backdrop-filter: blur(20px) saturate(50%);
 }
 
-.button {
-    position: relative;
-    left: 190px;
-    top: 120px;
-    border: none;
-    background-color: wheat;
-    border-radius: 8px;
-    color: black;
-    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
-    transition: 0.5s;
+.eventchess-wrapper,
+.eventcheckers-wrapper {
+    width: 45%;
+    margin: 2.5%;
 }
 
-.button:hover {
-    background-color: wheat;
-    transform: scale(1.5);
-
+.eventchess-wrapper,
+.eventcheckers-wrapper {
+    height: 300px;
 }
 
-html,
-body {
-    margin: 0;
-    height: 100%;
+.eventchess-wrapper {
+    background-image: url(/images/Games/chess.jpg);
+}
 
+.eventcheckers-wrapper {
+    background-image: url(/images/Games/checkers.jpg);
 }
