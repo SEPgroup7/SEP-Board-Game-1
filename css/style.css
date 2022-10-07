@@ -1,5 +1,17 @@
 * {
     box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behaviour: smooth;
+}
+
+body {
+    background-color: #d9d9d9;
 }
 
 .clearfix {
@@ -10,4 +22,44 @@
     content: "";
     clear: both;
     display: table;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open sans';
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h4, h5, h6 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: 'Montserrat';
 }
