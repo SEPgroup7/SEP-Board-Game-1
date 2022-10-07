@@ -14,11 +14,6 @@
     padding: 5px 15px;
 }
 
-.navbar-container a:hover {
-    color: rgb(125, 124, 124);
-    transition: all 0.3s ease-in-out;
-}
-
 .navbar-container a {
     padding-top: 21px;
 }
