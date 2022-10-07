@@ -1,3 +1,7 @@
+.fblinktext {
+    color: green
+}
+
 .eventchess-wrapper,
 .eventcheckers-wrapper {
     float: left;
@@ -13,7 +17,7 @@
 .eventchess-container h2,
 .eventcheckers-container h2 {
     margin: 0 auto;
-    color: white;
+    color: rgb(0, 0, 0);
     backdrop-filter: blur(20px) saturate(50%);
 }
 
@@ -26,12 +30,4 @@
 .eventchess-wrapper,
 .eventcheckers-wrapper {
     height: 300px;
-}
-
-.eventchess-wrapper {
-    background-image: url(/images/Games/chess.jpg);
-}
-
-.eventcheckers-wrapper {
-    background-image: url(/images/Games/checkers.jpg);
 }
