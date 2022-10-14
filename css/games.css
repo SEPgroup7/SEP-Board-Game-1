@@ -136,3 +136,11 @@
   font-weight: 800;
 }
 
+/*paddings didnt fit the overaly*/
+.domino-wrapper > .image-overlay {
+  padding: 9%;
+}
+
+.monopoly-wrapper > .image-overlay {
+  padding: 9%;
+}
